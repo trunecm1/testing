@@ -613,13 +613,14 @@
   /* ═══════════════════════════════
      CONFIG
   ═══════════════════════════════ */
-  const JSON_URL       = "https://script.google.com/macros/s/AKfycbxnsTHFHtioSlTpo0Y7AAHvuFaDa1bgBL3B5wn47y43J7o1omuQB1t8hluFmhb8BPBY8Q/exec";
+  //const JSON_URL       = "https://script.google.com/macros/s/AKfycbxnsTHFHtioSlTpo0Y7AAHvuFaDa1bgBL3B5wn47y43J7o1omuQB1t8hluFmhb8BPBY8Q/exec";
+  const JSON_URL       = "https://script.google.com/macros/s/AKfycbwJM3QtUclYpN65epeOtCls-Bi_coARdH69qBwFTIpPsLlB1A8O8xyxyAhxNka_r4M/exec";
   // Court identifiers in display order. P-courts first, then numbered courts (which start at 4).
   const COURT_IDS      = ['P1','P2','P3','P4','P5','4','5','6','7','8','9','10','11','12','13','14','15','16'];
   const COURT_ORDER    = new Map(COURT_IDS.map((id,i)=>[id.toUpperCase(),i]));
   const UPCOMING_COUNT = 5;
   const REFRESH_MS     = 30000;
-  const HOT_MINUTES    = 120;
+  const HOT_MINUTES    = 90;
 
   /* ═══════════════════════════════
      DOM
